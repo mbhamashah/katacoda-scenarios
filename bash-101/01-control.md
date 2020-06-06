@@ -1,7 +1,7 @@
 # Control
 ## Learn how to control bash
 
-In the beginning was the command line... mAHAVEER
+In the beginning was the command line...
 
 ### History
 We're going to start by making you fast at using the command-line by looking into history. To do that there are a few simple commands to learn.
