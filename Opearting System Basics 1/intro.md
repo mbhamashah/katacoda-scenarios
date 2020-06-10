@@ -11,11 +11,12 @@ An operating system (OS) is system software that manages computer hardware, soft
 
 Most popular operating systems are  
 
-1. Windows 
+1. Linux 
 
-2. iOS
+2. Windows
 
-3. Linux
+Majority of the servers are running on one of these two operating systems.
+
 
 #### Introduction to Linux operating system
 
