@@ -4,21 +4,26 @@
 
 #### What is an Operating System
 
-According to Wikipedia
+According to Wikipedia 
 
 An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs. As this moment when you are reading this slide, in fact it is using a operating system in the background.
 
 Most popular operating systems are  
 
-===
+1. Windows 
 
-Windows 
+2. iOS
 
+3. Linux
 
-iOS
+#### Introduction to Linux operating system
 
+According to Wikipedia
 
-Linux
+Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.
+
+The Linux kernel is a free and open-source, monolithic, Unix-like operating system kernel. 
+It is deployed on a wide variety of computing systems, such as mobile devices, personal computers, servers, mainframes, supercomputers, embedded devices (routers, set-top boxes, smartTVs etc).
 
 
 
