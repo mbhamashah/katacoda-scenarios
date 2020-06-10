@@ -62,6 +62,24 @@ Kernel uses kernel space to provide its services, ultimately to its users
 
 Root is the starting point. Under root, Linux has many directories. Generally these directories are used for specific purpose.
 
+|Name   |  User For     |
+|/bin   | User Binaries |
+| /bin  |   sasd   |
+|  ss1 |ss2   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+
 Name  - Used for 
 
 /bin - User Binaries
