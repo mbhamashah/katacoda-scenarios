@@ -3,8 +3,6 @@
 ## The things you will use every day
 
 
-
-
 #### What is an Operating System
 
 According to Wikipedia 
