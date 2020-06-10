@@ -1,4 +1,4 @@
-# bash-101: Foundations
+# Operating System Basics 1
 ## The things you will use every day
 ### Try to keep up
 

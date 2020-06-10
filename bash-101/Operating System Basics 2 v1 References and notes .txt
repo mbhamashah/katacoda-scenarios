@@ -1,0 +1,13 @@
+References 
+
+Operating System Basics 2
+https://en.wikipedia.org/wiki/Operating_system
+https://en.wikipedia.org/wiki/File:Operating_system_placement.svg
+https://en.wikipedia.org/wiki/Microsoft_Windows#Usage_share_and_device_sales
+https://www.redhat.com/en/blog/red-hat-leading-enterprise-linux-server-market
+https://www.guru99.com/powershell-tutorial.html
+https://blog.netwrix.com/2018/02/21/windows-powershell-scripting-tutorial-for-beginners/
+http://index-of.co.uk/Tutorials/Windows%20Shell%20Script%20Programming%20for%20the%20Absolute%20Beginner.pdf
+
+If you need more example then you can use shell scripting file.
+
