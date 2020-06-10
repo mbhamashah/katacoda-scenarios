@@ -1,7 +1,20 @@
 # Files & Directories
 ## File management in Bash
 ---
-Files are collections of bits or characters stored in directories/folders (those terms are interchangeable). Let's start by looking at directories...
+Files are collections of bits or characters stored in directories/folders (those terms are interchangeable). Let's start by looking at files and directories...
+
+### ls command
+
+This command is used to list directory. 
+
+
+`ls`{{execute}}
+
+
+As with most of the linux commands, if we use -l option with it then it will give output in long list format
+
+`ls -lf`{{execute}}
+
 
 ### Home sweet home
 Every linux user has a home directory, let's move to ours. To do so we use `cd`{{execute}} (try it now). We can see what the current directory, called the working directory, is by issuing the command `pwd`{{execute}} or outputting the `$PWD` variable: `echo $PWD`{{execute}}. The home directory is where bash looks for its initialisation scripts, which start with one called .bashrc (more about that later).
