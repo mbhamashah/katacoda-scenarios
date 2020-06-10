@@ -9,9 +9,13 @@
         "title": "How to use bash",
         "text": "01-How to use  bash.md"
       },
+	  {
+        "title": "Basics",
+        "text": "02-basics.md"
+      },
       {
         "title": "Files",
-        "text": "02-files.md"
+        "text": "03-files.md"
       },
       {
         "title": "Step 3",
