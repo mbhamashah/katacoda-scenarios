@@ -10,11 +10,16 @@ An operating system (OS) is system software that manages computer hardware, soft
 
 Most popular operating systems are  
 
+===
+
 Windows 
+
 
 iOS
 
+
 Linux
+
 
 
 #### What is a shell?
