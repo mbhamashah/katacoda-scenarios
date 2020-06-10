@@ -1,8 +1,8 @@
 {
-  "title": "Bash 101",
-  "description": "An clear introduction to bash, the way it should be used",
+  "title": "Operating System Basics 1",
+  "description": "An introduction to Linux Operating System",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "480 minutes",
   "details": {
     "steps": [
       {
