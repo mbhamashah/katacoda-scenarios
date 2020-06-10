@@ -94,15 +94,43 @@ Name  - Used for
 /srv - Service Data
 
 
+#### Various Linux Distributions
+
+Ubuntu
+
+RHEL/CentOS
+
+Debian
+
+Arch Linux
+
+Mint
+
+Fedora
 
 
+#### Linux Popularity
 
+In corporate world, most of the organizations are moving more towards Linux OS.
+
+Most of the cloud data centers are running on Linux OS
+
+Even in Azure DataCenter, Microsoft is using Linux OS to run most of the services.
+
+Linux is the base for Android Operating System
+
+Linux is the base for iOS Operating Syste,
+
+You will find Linux in TV, Smart Phones, Remote, Setup Box, Watches, Router and list goes on  and on  and on…..
 
 
 #### What is a shell?
+
 In Linux, a shell is a command intepreter: a program that has the permission and ability to run other programs. On Linux it is possible to run many sessions, or instances, of a shell simultaneously.
 
 #### What is bash?
+
+Bash is a command language interpreter. It is a default command interpreter on most Linux systems. The name is an acronym for the ‘Bourne-Again SHell'.
 Bash is a program that has the capabilities and permissions to run other programs. It is the result of decades of evolution and is highly sophisticated though is often mired in the past. It is one of the most highly developed and efficient methods of interacting with a computer. But, it is really reserved for people who deeply understand computers and who understand why a lot of things are better done with a keyboard than a mouse.
 
 
@@ -111,6 +139,8 @@ There are plenty of other shells that we could learn about, some of them are con
 There are two fundamental methods of working with bash: Terminals and Scripts
 
 Terminals, sometimes called command-lines, sessions, or, confusingly, shells, exist for people: they hold the user-interface for a shell. Scripts are lists of bash instructions in a file that execute either in the current shell or in a new one. 
+
+
 
 #### What will you learn?
 At first we'll look at terminals, but we'll quickly move into scripts too. You'll learn a bunch of useful skills in a terminal and how to use bash, even though right now you won't learn that many commands. That's what the rest of the course is for.
