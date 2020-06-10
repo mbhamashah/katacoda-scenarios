@@ -1,5 +1,5 @@
-# Control
-## Learn how to control bash
+# How to use a bash terminal
+## Learn how to control bash terminal
 
 In the beginning was the command line...
 

@@ -6,8 +6,8 @@
   "details": {
     "steps": [
       {
-        "title": "Control",
-        "text": "01-control.md"
+        "title": "How to use bash",
+        "text": "01-How to use  bash.md"
       },
       {
         "title": "Files",
