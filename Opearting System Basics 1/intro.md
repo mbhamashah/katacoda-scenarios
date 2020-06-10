@@ -2,6 +2,9 @@
 
 ## The things you will use every day
 
+
+
+
 #### What is an Operating System
 
 According to Wikipedia 
@@ -34,6 +37,26 @@ Every Linux Distribution includes Linux Kernel and other supporting softwares wh
 Kernels are generally classified as Monotlithic Microkernel or Hybrid Kernel
 
 Linux has a Monolithic Kernel
+
+
+#### User Space
+
+System Memory  is made up of two areas –User Space and  Kernel Space 
+
+In user space , user applications are executed
+
+All user processes run in the user space
+
+Kernel manages user processes in user space
+
+GNU C Library also resides in user space
+
+
+#### Kernel Space 
+
+Kernel Space is the space where are core operating system code is executed
+
+Kernel uses kernel space to provide its services, ultimately to its users
 
 
 #### What is a shell?
