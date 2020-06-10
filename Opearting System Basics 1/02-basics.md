@@ -20,3 +20,9 @@ This command can be used to change direcotory.
 `cd \etc`{{execute}}
 
 #### man
+
+man command is used to get help on any command. 
+
+`man cd`{{execute}}
+
+`man du`{{execute}}
