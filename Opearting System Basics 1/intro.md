@@ -1,7 +1,7 @@
 # Operating System Basics 1
 
 ## The things you will use every day
-
+---
 
 #### What is an Operating System
 
