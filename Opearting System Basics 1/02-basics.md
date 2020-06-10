@@ -27,6 +27,6 @@ This command can be used to change direcotory.
 
 man command is used to get help on any command. 
 
-`man cd`{{execute}}
+`man echo`{{execute}}
 
 `man du`{{execute}}
