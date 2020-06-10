@@ -13,7 +13,18 @@ This command is used to list directory.
 
 As with most of the linux commands, if we use -l option with it then it will give output in long list format
 
-`ls -lf`{{execute}}
+`ls -l`{{execute}}
+
+### Copy command
+
+command is used for copying files and directories from one location to another.
+
+Lets first create some files
+
+
+
+`cp /home/tecmint/file1 /home/tecmint/Personal/`{{execute}}
+
 
 
 ### Home sweet home
