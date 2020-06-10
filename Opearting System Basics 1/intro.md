@@ -25,6 +25,15 @@ Linux is a family of open source Unix-like operating systems based on the Linux 
 The Linux kernel is a free and open-source, monolithic, Unix-like operating system kernel. 
 It is deployed on a wide variety of computing systems, such as mobile devices, personal computers, servers, mainframes, supercomputers, embedded devices (routers, set-top boxes, smartTVs etc).
 
+#### What is Linux Kernel
+
+The core of any Linux Operating System is Linux kernel.
+
+Every Linux Distribution includes Linux Kernel and other supporting softwares which are required for user management, system management , file operations etc.
+
+Kernels are generally classified as Monotlithic Microkernel or Hybrid Kernel
+
+Linux has a Monolithic Kernel
 
 
 #### What is a shell?
