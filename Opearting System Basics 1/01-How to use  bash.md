@@ -58,7 +58,7 @@ I haven't provided a copy or execute for that command beause Katacoda can't easi
 
 ### Clear
 
-At certain point we may want to clean your screen. for that we can use 'clear' command. you can 
+At certain point we may want to clean your screen. for that we can use `clear` command. You can can run above mentioned few commands so that you have some text on the screen and use 'clear' command to see the magic of this command.
 
 ```
 clear
