@@ -57,6 +57,23 @@ Kernel Space is the space where are core operating system code is executed
 Kernel uses kernel space to provide its services, ultimately to its users
 
 
+##### Linux Directories
+
+Root is the starting point. Under root, Linux has many directories. Generally these directories are used for specific purpose.
+
+
+/bin - User Binaries
+
+/sbin - System Binaries
+
+/etc - Configuration Files
+
+/
+
+
+
+
+
 #### What is a shell?
 In Linux, a shell is a command intepreter: a program that has the permission and ability to run other programs. On Linux it is possible to run many sessions, or instances, of a shell simultaneously.
 
