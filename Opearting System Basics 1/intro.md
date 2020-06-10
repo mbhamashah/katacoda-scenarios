@@ -57,10 +57,11 @@ Kernel Space is the space where are core operating system code is executed
 Kernel uses kernel space to provide its services, ultimately to its users
 
 
-##### Linux Directories
+#### Linux Directories
 
 Root is the starting point. Under root, Linux has many directories. Generally these directories are used for specific purpose.
 
+Name  - Used for 
 
 /bin - User Binaries
 
@@ -68,7 +69,31 @@ Root is the starting point. Under root, Linux has many directories. Generally th
 
 /etc - Configuration Files
 
-/
+/dev - Device Files
+
+/proc - Process Information
+
+/var - Variable Files
+
+/tmp - Temporary Files
+
+/usr - User Programs
+
+/home - Home Directories
+
+/boot - Boot Loader Files
+
+/lib - System Libraries
+
+/opt - Optional Applications
+
+/mnt - Mount Directory
+
+/Media - Removable Device
+
+/srv - Service Data
+
+
 
 
 
