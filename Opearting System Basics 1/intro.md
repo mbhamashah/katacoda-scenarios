@@ -3,10 +3,10 @@
 ## The things you will use every day
 
 #### What is an Operating System
-●	According to Wikipedia
-An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.
 
-As this moment when you are reading this slide, in fact it is using a operating system in the background.
+According to Wikipedia
+
+An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs. As this moment when you are reading this slide, in fact it is using a operating system in the background.
 
 Most popular operating systems are  
 Windows 
