@@ -89,5 +89,64 @@ man sed can give you more info about various options.
 
 `man sed`{{execute}}
 
+### Difference among files
+
+diff command shows the difference between two files by comparing files line by line. diff uses certain special intrductions/sybols to communicate required changes to make two files identical. It tells what all changes to be made in first file to make it match second file. 
+
+a : add
+
+
+c : change
+
+
+d : delete
+
+Let's create two files. 
+
+`vi country1.txt`{{execute}}
+
+press i to go into insert mode.
+
+Add following text
+
+USA
+
+
+UK
+
+
+Netherlands
+
+
+then press Esc key ,then type :wq then enter
+
+Now create a new file
+
+`vi country2.txt`{{execute}}
+
+press i to go into insert mode.
+
+Add following text
+
+UK
+
+
+Netherlands
+
+
+Singapore
+
+
+then press Esc key ,then type :wq then enter
+
+
+Now let's see if we can see the content of the file before we change it
+cat > country1.txt
+
+cat > country2.txt
+
+diff country1.txt country2.txt
+
+
 
 
