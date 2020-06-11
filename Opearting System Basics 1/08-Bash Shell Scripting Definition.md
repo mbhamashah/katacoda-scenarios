@@ -19,16 +19,30 @@ Usually shells are interactive. A user enter an command and shell execute it. So
 
 When a user is using bash shell and writting code in bash shell is called bash scripting. To check our default interpreter, please execute this command
 
-@echo $SHELL$
+`echo `{{execute}}SHELL`{{execute}}
 
 In order to define script's interpreter as bash, we need to insert its executable binary with shebang #! at start of the script.
 
-@#! /bash/bin$
+`#! /bash/bin`{{execute}}
 
 As discussed earlier file permission, there three types of permission read, write and execute. Bash Shell Script file need execute permission. By default, any newly created shell script file does not have execute permission. Hence we may need to change the file permission.
 
 In order to check the file permission, you can run following command, assuming you are in the directory where the file is 
 
-@ ls -l$
+` ls -l`{{execute}}
+
+if file does not have execute permisson then user can run this command to give execute rights.
+
+` chmod +x filename `{{execute}}
+
+If we have included the shebang #! and bash path then simply running
+
+./filename will execute the command
+
+Another way to execute this, without the need to make the script executable and without declaring shebang, is by calling bash explicitly followed by filename.sh
+
+
+`bash filename.sh`{{execute}}
+
 
 
