@@ -17,13 +17,13 @@ This command can be combined with grep command to make this search more effectiv
 ip command is used to show or manipulate tunnels, routing and devices.This command can be used to assign network address to a network interface or network configuration. It can be used for configuring and editing routing, setting up tunnel, listing ip address and managing ip address or various interfaces or routers. 
 some of usage of this command are following
 
-ip -address shows list of ip addresses associated with  all network devices
+ip address shows list of ip addresses associated with  all network devices
 
-`ip -address`{{execute}}
+`ip address`{{execute}}
 
-ip -link shows the link layer information. It will get the characterstis of the available link layer devices.
+ip link shows the link layer information. It will get the characterstis of the available link layer devices.
 
-`ip -link`{{execute}}
+`ip link`{{execute}}
 
 ### nslookup
 
