@@ -43,6 +43,11 @@ Now that we have few directories and one sample file. We want to copy samplefile
 `ls -l `{{execute}}
 
 
+Now let's move samplefilecopied.txt from devops2 directory to devops1 directory
+
+`mv /root/devops2/samplefilecopied.txt /root/devops1/samplefilecopiedmoved.txt`{{execute}}
+
+
 ### Home sweet home
 Every linux user has a home directory, let's move to ours. To do so we use `cd`{{execute}} (try it now). We can see what the current directory, called the working directory, is by issuing the command `pwd`{{execute}} or outputting the `$PWD` variable: `echo $PWD`{{execute}}. The home directory is where bash looks for its initialisation scripts, which start with one called .bashrc (more about that later).
 
