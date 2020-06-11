@@ -78,6 +78,171 @@ Now that file exist. In this case we are going to remove file samplefilecopiedmo
 
 `rm -rf \root\devops1`{{execute}}
 
-### 
+### View content of a file 
 
 
+`cat` is used to view contents of a file  and display it on the output.
+
+`cd /root/devops2`{{execute}}
+
+`vi samplefile.txt`{{execute}}
+
+press i
+
+Then type some sample text - 
+
+I love DevOps !!!
+
+Welcome to DevOps
+
+This is my n-2 line
+
+This is n-1 line
+
+This is the last line (n)
+
+
+Press Esc key
+then type :wq
+hit enter
+
+Now try
+
+`cat samplefile.txt`{{execute}}
+
+You will see the text of the file on the screen.
+
+
+### View last few lines of the file
+
+tail command is used to display the last lines of a file (by default last 10 lines)
+
+`tail -n 2 samplefile.txt`{{execute}}
+
+-n 2option command will give you only last two lines of the file.
+
+
+### Permissions
+
+In order to secure directories and files in the Linux, we use permissions to control what a user is allowed to do with the files or a directories.
+
+There are three types of permission 
+
+Read - This permission allow a user to read only a file
+
+
+Write - This permission allow a user to read, write or delete a file.
+
+
+Execute - This permission allow a user to run a file
+
+We also have permission at following level
+
+User - This permission affects owner of the file.
+
+
+Group - This permission affects the group which owns it.
+
+
+Other - This permission affects the rest of the users
+
+4 – read permission
+
+
+2 – write permission
+
+
+1 – execute permission
+
+
+0 – no permission
+
+
+let's check the permission of samplefile.txt. If does not exist then you can create a file using above mentioned commands.
+
+`ls -l`{{execute}}
+
+you will see the permission of samplefile.txt
+
+
+-rw-r--r-- 1 root root   71 Jun 11 06:44 sample.txt
+
+first bit says where it is a directory of file. d is not mentioned then it is a file.sample
+Next three places shows what permission a user has, next three places shows what permission a group has and last three places shows what permission rest of the users have.
+
+If we want to give a
+
+user - Read and write and execute permission
+
+Then for user, we need to sum 4 + 2+ 1 = 7
+
+Same way we want to give Read and write option to group 
+
+then for group it is 4+2 = 6
+
+For others, we just want to give read access 
+
+then for others read = 1
+
+so we have 761 number
+
+
+`chmod 761 samplefile.txt`{{execute}}
+
+
+`ls -l`{{execute}}
+
+Now you can see the permission of file has changed.
+
+### Ownership of file
+
+We can change the ownership of the file using chown command
+
+chown owner_name  file_name
+
+Now let's assume there is another user with name Tom. If you want to make Tom the owner of the file then we can use this command
+
+chown tom samplefile.txt
+
+
+### Basename
+
+basename command prints the name of a file removing directories in the full path.
+
+Assuming we have a file in /root/devops2/samplefile.txt
+
+`basename /root/devops2/samplefile `{{execute}}
+
+### Disk Free
+
+df shows the amount of avaialble disk space being used by file systems.
+
+
+`df `{{execute}}
+
+To get this info in more human readable form
+
+`df -h `{{execute}}
+
+
+
+
+ 
+### Disk Usage
+
+du command shows the disk space used by directory trees inclusive of its content.
+
+du <directory_name>
+
+to get info in more human readable format
+du -h <directory_name>
+
+### Find command
+
+find command searches for files in a directory and underlying sub-directories. It searches for files by attributes such as file name, permissions, users, groups, file type, date, size and other possible criteria.
+
+`find /root/devops2  -name samplefile.txt `{{execute}}
+
+### Touch a file
+
+tocuh command changes file timestamp. It can also create a file if it does not exist.
