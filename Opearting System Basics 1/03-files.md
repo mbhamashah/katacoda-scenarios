@@ -3,7 +3,7 @@
 ---
 Files are collections of bits or characters stored in directories/folders (those terms are interchangeable). Let's start by looking at files and directories...
 
-### ls command
+### List directories and files 
 
 This command is used to list directory. 
 
@@ -43,6 +43,8 @@ Now that we have few directories and one sample file. We want to copy samplefile
 `ls -l `{{execute}}
 
 
+### Move file
+
 Now let's move samplefilecopied.txt from devops2 directory to devops1 directory
 
 `mv /root/devops2/samplefilecopied.txt /root/devops1/samplefilecopiedmoved.txt`{{execute}}
@@ -58,5 +60,24 @@ To create a new directory called 'wibble' we would type `mkdir wibble`{{execute}
 
 ### Files
 In Linux almost everything is a file. A file is actually a pointer to a collection of bytes, and some very strange things are classed as files in Linux. We can create an empty file using the command `touch`, as in `touch myfile.txt`{{execute}}. 
+
+### Remove files and directories
+
+So now if want to remove a file then we can use rm command. First let's check if the file exist.
+
+
+`cd /root/devops1`{{execute}}
+
+`ls`{{execute}}
+
+Now that file exist. In this case we are going to remove file samplefilecopiedmoved.txt
+
+`rm samplefilecopiedmoved.txt`{{execute}}
+
+`rm -rf` can remove files and directories recursively. Hence we have to be very careful when we want to use this command.
+
+`rm -rf \root\devops1`{{execute}}
+
+### 
 
 
