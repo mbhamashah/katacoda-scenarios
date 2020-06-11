@@ -75,3 +75,19 @@ sort -f  returns case insensitive sorting
 
 `sort -f samplefile.txt `{{execute}}
 
+### File editing without opening it
+
+sed command can find, substitute  and replace text in a file without opening it. 
+
+`sed 's/DevOps/Linux' samplefile.txt`{{execute}}
+
+If you want to replace first two occurance then 
+
+`sed 's/Linux/Bootcamp/2' samplefile.txt`{{execute}}
+
+man sed can give you more info about various options.
+
+`man sed`{{execute}}
+
+
+
