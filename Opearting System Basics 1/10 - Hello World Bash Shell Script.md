@@ -14,4 +14,10 @@ Now press i , then enter following text
 
 echo " Hello World !!"`
 
-Now 
+Now pres Esc key, then :wq , then enter key.
+
+now let's give executable permission to hello-world.sh file
+`chmod +x hello-world.sh`{{execute}}
+
+now let's run our script by using this command
+` ./hello-world.sh`{{execute}}
