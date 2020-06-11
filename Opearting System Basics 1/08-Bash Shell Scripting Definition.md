@@ -23,4 +23,12 @@ When a user is using bash shell and writting code in bash shell is called bash s
 
 In order to define script's interpreter as bash, we need to insert its executable binary with shebang #! at start of the script.
 
-#! /bash/bin
+@#! /bash/bin$
+
+As discussed earlier file permission, there three types of permission read, write and execute. Bash Shell Script file need execute permission. By default, any newly created shell script file does not have execute permission. Hence we may need to change the file permission.
+
+In order to check the file permission, you can run following command, assuming you are in the directory where the file is 
+
+@ ls -l$
+
+
