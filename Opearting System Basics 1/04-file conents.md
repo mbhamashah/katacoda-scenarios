@@ -111,12 +111,9 @@ Add following text
 
 USA
 
-
 UK
 
-
 Netherlands
-
 
 then press Esc key ,then type :wq then enter
 
@@ -130,12 +127,9 @@ Add following text
 
 UK
 
-
 Netherlands
 
-
 Singapore
-
 
 then press Esc key ,then type :wq then enter
 
@@ -146,6 +140,20 @@ cat > country1.txt
 cat > country2.txt
 
 diff country1.txt country2.txt
+
+It will show the 
+
+1d0
+< USA
+3a3
+> Singapore
+
+1d0  - says that from country1.txt delete USA
+3a3  - says to add Singapore in line 3 of country1.txt as is the case in country2.txt
+
+
+
+
 
 
 
