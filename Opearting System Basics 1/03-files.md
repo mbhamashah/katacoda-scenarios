@@ -11,20 +11,36 @@ This command is used to list directory.
 `ls`{{execute}}
 
 
-As with most of the linux commands, if we use -l option with it then it will give output in long list format
+if we use -l option with it then it will give output in long list format
 
 `ls -l`{{execute}}
+
 
 ### Copy command
 
 command is used for copying files and directories from one location to another.
 
-Lets first create some files
+Lets first create some directories. 
+
+`mkdir devops1`{{execute}}
+
+`mkdir devops2`{{execute}}
+
+`cd  devops1`{{execute}}
+
+`touch samplefile.txt`{{execute}}
+
+`ls`{{execute}}
 
 
+Now that we have few directories and one sample file. We want to copy samplefile.txt from devops1 directory ro devops2 directory with new name samplefilecopied.txt.
 
-`cp /home/tecmint/file1 /home/tecmint/Personal/`{{execute}}
 
+`cp samplefile.txt /root/devops2/samplefilecopied.txt `{{execute}}
+
+`cd /root/devops2 `{{execute}}
+
+`ls -l `{{execute}}
 
 
 ### Home sweet home

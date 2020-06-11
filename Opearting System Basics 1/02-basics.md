@@ -30,3 +30,6 @@ man command is used to get help on any command.
 `man echo`{{execute}}
 
 `man du`{{execute}}
+
+There are many options available with each command. We may not be able to cover all of them but for any command you can get help using man <command> then it will give you more info about various options.
+
