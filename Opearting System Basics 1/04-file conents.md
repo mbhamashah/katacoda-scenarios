@@ -135,11 +135,13 @@ then press Esc key ,then type :wq then enter
 
 
 Now let's see if we can see the content of the file before we change it
-cat > country1.txt
 
-cat > country2.txt
+ 
+`cat > country1.txt`{{execute}}
 
-diff country1.txt country2.txt
+`cat > country2.txt`{{execute}}
+
+`diff country1.txt country2.txt`{{execute}}
 
 It will show the 
 
@@ -152,8 +154,31 @@ It will show the
 3a3  - says to add Singapore in line 3 of country1.txt as is the case in country2.txt
 
 
+### Here Document
+
+Using here document  or heredoc, a block of code or text can be redirected to the command script or interactive program. This can be used by bash script.
+
+Lets say we want to use command cat.
+
+Heredoc delimiter is DEMO
 
 
+Let's first create a bash file
+
+`vi heredoc.sh`{{execute}}
+
+
+#!/bin/bash
+cat <<DEMO
+This block of the text is
+added using Here Document example
+DEMO
+
+save this file by pressing esc , :wq , enter key
+
+now run this command
+
+`bash heredoc.sh`{{execute}}
 
 
 
