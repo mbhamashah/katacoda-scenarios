@@ -246,3 +246,16 @@ find command searches for files in a directory and underlying sub-directories. I
 ### Touch a file
 
 tocuh command changes file timestamp. It can also create a file if it does not exist.
+
+`ls -l `{{execute}}
+
+`touch samplefile.txt `{{execute}}
+
+`ls -l `{{execute}}
+Have you noticed the timestamp difference.
+
+Let's create an empty file.
+
+` touch devopsbootcamp.txt`{{execute}}
+
+`ls -l `{{execute}}
