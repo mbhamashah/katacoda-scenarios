@@ -38,17 +38,19 @@ So now we have few files and sub directories.
 
 Now press i, then add folllowing command 
 
-`#!/bin/bash`
+`#!/bin/bash`{{execute}}
 
-`tar -czf ./backup/myhomebackup.tar.gz  .`
+`tar -czf /root/user/backup/myhomebackup.tar.gz  /root/user`{{execute}}
 
 Now press Esc key and :wq , press enter.
 
 Now you should have a file in backup directory.
 
-`./backup/myhomebackup.tar.gz` will take bacup sub-directory with in current directory with file name myhomebackup.tar.gz 
+This may give an error -  
 
-`.` specify take backup of current directory in this example is i.e. \root\user 
+`tar: Removing leading `/' from member names` 
+
+Ignore this error for timebeing.
 
 
 
