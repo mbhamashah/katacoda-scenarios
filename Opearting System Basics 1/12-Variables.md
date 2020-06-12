@@ -43,10 +43,13 @@ Let's create a new script with `vardemo.sh`
 `#!/bin/bash`
 
 `greeting="Hello DevOps Enthusiast!"`
+
 `user=$(whoami)`
+
 `day=$(date)`
 
 `echo "$greeting . Your user id is $user! Today is $day. Today we are learning basics of Operating System!"`
+
 `echo "Your Bash shell version is: $BASH_VERSION. Enjoy your class!"`
 
 
@@ -66,10 +69,13 @@ Now let's customize our back up script. I assuming that you still have a user su
 `# Modified backup script `
 
 `input_directory=/root/user`
+
 `output_file=/root/user/backup/$backup_home_$(date +%Y-%m-%d_%H%M%S).tar.gz`
 
 `tar -czf $output_file $input_directory`
+
 `echo "Backup of $input is completed as requested! Please find the details of the output backupfile.:"`
+
 `ls -l $output`
 
 

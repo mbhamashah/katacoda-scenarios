@@ -10,13 +10,21 @@ First let's create some files and sub-directories.
 
 
 `dir`{{execute}}
+
 `ls -l`{{execute}}
+
 `mkdir user`{{execute}}
+
 `touch backupfile1.txt`{{execute}}
+
 `mkdir subdir1`{{execute}}
+
 `mkdir backup`{{execute}}
+
 `cd subdir1`{{execute}}
+
 `touch backupfile2.txt`{{execute}}
+
 `ls -l`{{execute}}
 
 you should see you backupfile2.txt`{{execute}}
