@@ -64,9 +64,22 @@ Press 'i'
 
 `ls -l $output`{{execute}}
 
+
 Please note that in tar command we are using 2> to redirect stderr to a /script_error/null. Assume this is a data sink which discards any data sent to it.
 
 After executing this new script you will not see stderr message.
+
+Now press Esc key + :wq followed by enter key
+
+`ls -l `{{execute}}
+
+
+`chmod +x newbackup.sh`{{execute}}
+
+
+`./newbackup.sh`{{execute}}
+
+
 
 Now we want to read commands from a file.
 
