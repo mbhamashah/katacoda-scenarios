@@ -5,7 +5,7 @@ Files are collections of bits or characters stored in directories/folders (those
 
 ### List directories and files 
 
-This command is used to list directory. 
+This command is used to list directory and files. 
 
 
 `ls`{{execute}}
@@ -18,7 +18,7 @@ if we use -l option with it then it will give output in long list format
 
 ### Copy command
 
-command is used for copying files and directories from one location to another.
+cp command is used for copying files and directories from one location to another.
 
 Lets first create some directories. 
 
@@ -44,6 +44,9 @@ Now that we have few directories and one sample file. We want to copy samplefile
 
 
 ### Move file
+
+mv command moves files from one directory to another directory or with in the same directory. Same command can also be used to rename the file.
+
 
 Now let's move samplefilecopied.txt from devops2 directory to devops1 directory
 
@@ -215,7 +218,7 @@ Assuming we have a file in /root/devops2/samplefile.txt
 
 ### Disk Free
 
-df shows the amount of avaialble disk space being used by file systems.
+df shows the amount of available disk space being used by file systems.
 
 
 `df `{{execute}}
@@ -245,7 +248,7 @@ find command searches for files in a directory and underlying sub-directories. I
 
 ### Touch a file
 
-tocuh command changes file timestamp. It can also create a file if it does not exist.
+touch command changes file timestamp. It can also create a file if it does not exist.
 
 `ls -l `{{execute}}
 
