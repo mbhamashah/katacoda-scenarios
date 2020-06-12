@@ -44,6 +44,15 @@ Now press i, then add folllowing command
 
 Now press Esc key and :wq , press enter.
 
+`cd ..`{{execute}}
+
+
+So now we have few files and sub directories.
+
+`chmod +x backupscript.sh`{{execute}}
+
+`./backupscript.sh`{{execute}}
+
 Now you should have a file in backup directory.
 
 This may give an error -  
