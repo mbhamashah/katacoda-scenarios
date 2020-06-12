@@ -11,7 +11,7 @@ First let's create some files and sub-directories.
 
 `dir`{{execute}}
 `ls -l`{{execute}}
-`mkdir user
+`mkdir user`{{execute}}
 `touch backupfile1.txt`{{execute}}
 `mkdir subdir1`{{execute}}
 `mkdir backup`{{execute}}
