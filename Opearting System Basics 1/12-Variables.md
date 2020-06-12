@@ -65,12 +65,12 @@ We have used a combination of variables and commands. You can see that it gives 
 Now let's customize our back up script. I am assuming that you still have a user sub directory under root. If not then please follow previous steps to create files and directory structure. If not then you can change input_directory name and output_file name as mentioned in the script. 
 
 |- root
+	
+	|--user
 
-|--user
+		|----backup
 
-|----backup
-
-|----subdir1
+		|----subdir1
 
 
 `vi newbackup.sh`{{execute}}
