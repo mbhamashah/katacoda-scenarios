@@ -42,17 +42,17 @@ Let's create a new script with `vardemo.sh`
 
 Press 'i' to activate insert mode
 
-`#!/bin/bash`
+`#!/bin/bash`{{execute}}
 
-`greeting="Hello DevOps Enthusiast!"`
+`greeting="Hello DevOps Enthusiast!"`{{execute}}
 
-`user=$(whoami)`
+`user=$(whoami)`{{execute}}
 
-`day=$(date)`
+`day=$(date)`{{execute}}
 
-`echo "$greeting . Your user id is $user! Today is $day. Today we are learning basics of Operating System!"`
+`echo "$greeting . Your user id is $user! Today is $day. Today we are learning basics of Operating System!"`{{execute}}
 
-`echo "Your Bash shell version is: $BASH_VERSION. Enjoy your class!"`
+`echo "Your Bash shell version is: $BASH_VERSION. Enjoy your class!"`{{execute}}
 
 
 now press Esc key followed by :wq
