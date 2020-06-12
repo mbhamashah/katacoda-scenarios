@@ -30,13 +30,18 @@ This message was sent to stderr descriptor.
 
 We can use 2> redirection to send them to /error/null. error is sub directory under user directory.
 
-Solet's first create sub-directory under user directory
+So let's first create sub-directory under user directory
 
 `mkdir script_error`{{execute}}
+
 `cd script_error`{{execute}}
+
 `mkdir null`{{execute}}
+
 `cd ..`{{execute}}
+
 `pwd`{{execute}}
+
 
 Now let's modify our backup script.
 
