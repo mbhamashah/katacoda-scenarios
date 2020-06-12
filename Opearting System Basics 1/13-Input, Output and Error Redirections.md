@@ -56,9 +56,9 @@ Press 'i'
 
 `input_directory=/root/user`{{execute}}
 
-`output_file=/root/user/backup/$backup_home_$(date +%Y-%m-%d_%H%M%S).tar.gz`{{execute}}
+`output_file=/root/user/backup/backup_$(date +%Y-%m-%d_%H%M%S).tar.gz`{{execute}}
 
-`tar -czf $output_file $input_directory 2>/script_error/null`{{execute}}
+`tar -czf $output_file $input_directory 2>/root/user/script_error/null/error.txt`{{execute}}
 
 `echo "Backup of $input is completed as requested! Please find the details of the output backupfile.:"`{{execute}}
 
