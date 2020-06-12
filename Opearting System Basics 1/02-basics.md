@@ -4,7 +4,7 @@
 #### echo
 This command can be used to display the line of text that is passed as an argument. 
 
-`echo "Welcome to DevOps Bootcamp !!!!`{{execute}}
+`echo "Welcome to DevOps Bootcamp !!"`{{execute}}
 
 There are many options with alomost all commands. You do not need to remember these options. You can refer to manual or online help using `man ` command. We will talk about this shortly.
 
