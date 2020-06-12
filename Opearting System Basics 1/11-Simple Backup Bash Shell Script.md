@@ -15,9 +15,9 @@ Let's first create some files and sub-directories.
 
 `mkdir user`{{execute}}
 
-`touch backupfile1.txt`{{execute}}
-
 `cd user`{{execute}}
+
+`touch backupfile1.txt`{{execute}}
 
 `mkdir subdir1`{{execute}}
 
