@@ -12,7 +12,7 @@ Now press i , then enter following text
 
 `#!/bin/bash
 
-echo " Hello World !!"`
+`echo " Hello World !!"`
 
 Now pres Esc key, then :wq , then enter key.
 
