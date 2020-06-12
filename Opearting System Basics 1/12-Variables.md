@@ -22,13 +22,13 @@ Now if we want to today's day
 
 Bash version
 
-`$BASH_VERSION
+`echo $BASH_VERSION`{{execute}}
 
 This will give bash version in your terminal.
 
 Let's see you want to greet someone, then we can define a variable and assign a value.
 
-greeting = "This is a sample greeting message which can be changed as per your language porefereance"
+greeting = "This is a sample greeting message which can be modified as per your language porefereance"
 
 `echo $greeting  `{{execute}}
 
