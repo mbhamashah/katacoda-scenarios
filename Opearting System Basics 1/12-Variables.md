@@ -73,19 +73,24 @@ Now let's customize our back up script. I am assuming that you still have a user
 |----subdir1
 
 
-`#!/bin/bash`
+`vi newbackup.sh`{{execute}}
 
-`# Modified backup script `
+Press 'i' to activate insert mode.
 
-`input_directory=/root/user`
 
-`output_file=/root/user/backup/$backup_home_$(date +%Y-%m-%d_%H%M%S).tar.gz`
+`#!/bin/bash` {{execute}}
 
-`tar -czf $output_file $input_directory`
+`# Modified backup script `{{execute}}
 
-`echo "Backup of $input is completed as requested! Please find the details of the output backupfile.:"`
+`input_directory=/root/user` {{execute}}
 
-`ls -l $output`
+`output_file=/root/user/backup/$backup_home_$(date +%Y-%m-%d_%H%M%S).tar.gz` {{execute}}
+
+`tar -czf $output_file $input_directory`{{execute}}
+
+`echo "Backup of $input is completed as requested! Please find the details of the output backupfile.:"`{{execute}}
+
+`ls -l $output`{{execute}}
 
 
 
