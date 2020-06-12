@@ -46,7 +46,7 @@ Now press i, then add folllowing command
 
 Now press Esc key and :wq , press enter.
 
-`cd ..`{{execute}}
+`ls -l`{{execute}}
 
 
 So now we have few files and sub directories.
