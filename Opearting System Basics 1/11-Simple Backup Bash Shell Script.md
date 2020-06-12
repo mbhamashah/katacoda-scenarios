@@ -17,6 +17,8 @@ Let's first create some files and sub-directories.
 
 `touch backupfile1.txt`{{execute}}
 
+`cd user`{{execute}}
+
 `mkdir subdir1`{{execute}}
 
 `mkdir backup`{{execute}}
