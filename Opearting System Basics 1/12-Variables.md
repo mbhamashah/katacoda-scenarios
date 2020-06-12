@@ -78,13 +78,13 @@ Now let's customize our back up script. I am assuming that you still have a user
 Press 'i' to activate insert mode.
 
 
-`#!/bin/bash` {{execute}}
+`#!/bin/bash`{{execute}}
 
-`# Modified backup script `{{execute}}
+`# Modified backup script`{{execute}}
 
-`input_directory=/root/user` {{execute}}
+`input_directory=/root/user`{{execute}}
 
-`output_file=/root/user/backup/$backup_home_$(date +%Y-%m-%d_%H%M%S).tar.gz` {{execute}}
+`output_file=/root/user/backup/$backup_home_$(date +%Y-%m-%d_%H%M%S).tar.gz`{{execute}}
 
 `tar -czf $output_file $input_directory`{{execute}}
 
