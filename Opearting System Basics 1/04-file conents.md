@@ -13,7 +13,7 @@ tar command is used with some options
 -x – Extract files from archive
 
 
--t – Display fils in archive
+-t – Display files in archive
 
 
 -v – verbose
@@ -61,7 +61,7 @@ For case insensitive search use -i option
 
 `grep -i DEvOPS samplefile.txt`{{execute}}
 
-### sort the results
+### Sort the results
 
 sort command sorts the results of a search either alphabetically or numerically. It also sorts files, file contents, and directories.
 
@@ -169,9 +169,13 @@ Let's first create a bash file
 
 
 #!/bin/bash
+
 cat <<DEMO
+
 This block of the text is
+
 added using Here Document example
+
 DEMO
 
 save this file by pressing esc , :wq , enter key
