@@ -17,7 +17,8 @@ This gives you the user name which is used to login to your session.
 This gives you today's date.
 
 Now if we want to today's day
-` day= $(date +%A)`{{execute}}
+`day=$(date +%A)`{{execute}}
+
 `echo $day`{{execute}}
 
 Bash version
@@ -28,7 +29,7 @@ This will give bash version in your terminal.
 
 Let's see you want to greet someone, then we can define a variable and assign a value.
 
-`greeting = "This is a sample greeting message which can be modified as per your language porefereance" `{{execute}}
+`greeting ="This is a sample greeting message"`{{execute}}
 
 `echo $greeting  `{{execute}}
 
