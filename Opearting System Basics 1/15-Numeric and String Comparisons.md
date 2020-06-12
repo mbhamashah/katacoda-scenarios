@@ -14,15 +14,7 @@ We are going to discuss numbereric and string comparisons. Using this comparison
 | greater or equal | -ge                | N/A               |
 
 ### Numeric Comparison
-`a=1`{{execute}}
 
-`b=2`{{execute}}
-
-`[ $a -lt $b ]`{{execute}}
-
-`echo $`{{execute}}
-
-0 signals true, while 1 signals false.
 
 number1 -eq number2                  checks if 1st  number  is equal to 2nd numberber
 
@@ -35,6 +27,20 @@ number1 -le number2                  checks if 1st  number  is less than or equa
 number1 -lt number2                  checks if 1st  number  is less than 2nd numberber
 
 number1 -ne number2                  checks if 1st  number  is not equal to 2nd numberber
+
+
+`a=1`{{execute}}
+
+`b=2`{{execute}}
+
+`[ $a -lt $b ]`{{execute}}
+
+`echo $`{{execute}}
+
+0 signals true, while 1 signals false.
+
+
+
 
 ### String Comparison
 
@@ -49,3 +55,14 @@ var1 > var2     checks if var1 is greater than var2
 -n var1         checks if var1 has a length greater than zero
 
 -z var1         checks if var1 has a length of zero
+
+
+`a=temp`{{execute}}
+
+`b=temporary`{{execute}}
+
+`[ $a = $b ]`{{execute}}
+
+`echo $`{{execute}}
+
+0 signals true, while 1 signals false.
