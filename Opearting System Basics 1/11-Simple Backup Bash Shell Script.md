@@ -2,11 +2,11 @@
 
 ## Backup Bash Shell Script
 
-Let's take develope a basic back up script, a routine work which we need to do every day or quite frequently.
+Let's develope a basic back up script, a routine work which we need to do every day or quite frequently.
 
 We want to take back up of a directory including all files and sub directories. We will be using tar command for it.
 
-First let's create some files and sub-directories.
+Let's first create some files and sub-directories.
 
 
 `dir`{{execute}}
