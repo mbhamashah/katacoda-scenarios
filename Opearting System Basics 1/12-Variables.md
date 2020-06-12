@@ -81,6 +81,11 @@ Now let's customize our back up script. I am assuming that you still have a user
 		|----subdir1
 
 
+
+
+		
+`clear`{{execute}}		
+		
 `vi newbackup.sh`{{execute}}
 
 Press 'i' to activate insert mode.
@@ -100,5 +105,12 @@ Press 'i' to activate insert mode.
 
 `ls -l $output`{{execute}}
 
+Now press Esc key + :wq followed by enter key
+
+`ls -l `{{execute}}
 
 
+`chmod +x newbackup.sh`{{execute}}
+
+
+`./newbackup.sh`{{execute}}
