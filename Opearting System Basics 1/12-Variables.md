@@ -8,7 +8,7 @@ There are some pre defined variables which are are used at various places. Let's
 
 On your terminal run this command and let's see what is the outcome.
 
-`whoami$
+`whoami`{{execute}}
 
 This gives you the user name which is used to login to your session.
 
