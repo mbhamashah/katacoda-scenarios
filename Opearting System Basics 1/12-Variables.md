@@ -53,16 +53,20 @@ Let's create a new script with `vardemo.sh`
 `echo "Your Bash shell version is: $BASH_VERSION. Enjoy your class!"`
 
 
-We have used combinations of variable and commands and you can see it gives us a lot more agility. We can customise it without rewriting everything from scrtach.
+We have used a combination of variables and commands. You can see that it gives us a lot more agility. We can customise it without rewriting everything from scratch.
 
 
 
-Now let's customize our back up script. I assuming that you still have a user sub directory under root. If not then please follow previous steps to create files and directory structure. If not then you can change input_directory name and output_file name as mentioned in the script. 
+Now let's customize our back up script. I am assuming that you still have a user sub directory under root. If not then please follow previous steps to create files and directory structure. If not then you can change input_directory name and output_file name as mentioned in the script. 
 
 |- root
+
 |--user
+
 |----backup
+
 |----subdir1
+
 
 `#!/bin/bash`
 
