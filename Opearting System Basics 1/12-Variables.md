@@ -29,7 +29,7 @@ This will give bash version in your terminal.
 
 Let's see you want to greet someone, then we can define a variable and assign a value.
 
-`greeting ="This is a sample greeting message"`{{execute}}
+`greeting="This is a sample greeting message"`{{execute}}
 
 `echo $greeting  `{{execute}}
 
@@ -58,6 +58,13 @@ Press 'i' to activate insert mode
 
 now press Esc key followed by :wq
 
+`ls -l`{{execute}}
+
+
+`chmod +x vardemo.sh`{{execute}}
+
+
+`./vardemo.sh`{{execute}}
 
 We have used a combination of variables and commands. You can see that it gives us a lot more agility. We can customise it without rewriting everything from scratch.
 
