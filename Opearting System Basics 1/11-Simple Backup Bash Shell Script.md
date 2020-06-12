@@ -2,7 +2,7 @@
 
 ## Backup Bash Shell Script
 
-Let's take develope a basic back up script, a routine work which we need to do eveyr day or quite frequently.
+Let's take develope a basic back up script, a routine work which we need to do every day or quite frequently.
 
 We want to take back up of a directory including all files and sub directories. We will be using tar command for it.
 
@@ -28,7 +28,7 @@ So now we have few files and sub directories.
 
 `vi backupscript.sh`{{execute}}
 
-Now press i, then we need to import bash
+Now press i, then add folllowing command 
 
 `#!/bin/bash`
 
@@ -37,6 +37,10 @@ Now press i, then we need to import bash
 Now press Esc key and :wq , press enter.
 
 Now you should have a file in backup directory.
+
+`./backup/myhomebackup.tar.gz` will take bacup sub-directory with in current directory with file name myhomebackup.tar.gz 
+
+`.` specify take backup of current directory in this example is i.e. \root\user 
 
 
 
