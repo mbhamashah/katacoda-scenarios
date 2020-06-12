@@ -13,3 +13,11 @@ We are going to discuss numeric and string comparisons. Using this comparisons, 
 | less or equal    | -le                | N/A               |
 | greater or equal | -ge                | N/A               |
 
+
+`a=1$
+
+`b=2$
+
+`a>b$
+
+0 signals true, while 1 signals false.
