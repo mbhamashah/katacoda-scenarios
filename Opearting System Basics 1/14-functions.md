@@ -59,12 +59,14 @@ Press 'i'
 `}`{{execute}}
 
 `# The function total_directories reports a total number of directories`{{execute}}
+
 `# for a given directory. `{{execute}}
 
 `function count_directories {`{{execute}}
-`        find $1 -type d | wc -l`{{execute}}
-`}`{{execute}}
 
+`        find $1 -type d | wc -l`{{execute}}
+
+`}`{{execute}}
 
 `tar -czf $output_file $input_directory 2>/root/user/script_error/null/error.txt`{{execute}}
 
