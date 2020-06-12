@@ -28,7 +28,7 @@ This will give bash version in your terminal.
 
 Let's see you want to greet someone, then we can define a variable and assign a value.
 
-greeting = "This is a sample greeting message which can be modified as per your language porefereance"
+`greeting = "This is a sample greeting message which can be modified as per your language porefereance" `{{execute}}
 
 `echo $greeting  `{{execute}}
 
@@ -39,6 +39,8 @@ Now that we have some basics of variables. Let's use them in our script and how 
 Let's create a new script with `vardemo.sh`
 
 `vi vardemo.sh`{{execute}}
+
+Press 'i' to activate insert mode
 
 `#!/bin/bash`
 
@@ -51,6 +53,9 @@ Let's create a new script with `vardemo.sh`
 `echo "$greeting . Your user id is $user! Today is $day. Today we are learning basics of Operating System!"`
 
 `echo "Your Bash shell version is: $BASH_VERSION. Enjoy your class!"`
+
+
+now press Esc key followed by :wq
 
 
 We have used a combination of variables and commands. You can see that it gives us a lot more agility. We can customise it without rewriting everything from scratch.
