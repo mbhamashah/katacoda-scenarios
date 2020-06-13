@@ -49,7 +49,13 @@ the Psuedocode for this  kind of backup script will be something like this
 
 If number of files source directory and traget file is same then print `OK` else print 'An error has occurred`
 
-Let's 
+Let's further enhance our backup script.
+
+`vi newbackup.sh`{{execute}} 
+
+Press 'i'
+
+
 
 `#!/bin/bash`{{execute}}
 
@@ -89,11 +95,11 @@ function total_count_archived_files {
 `tar -czf $output_file $input_directory 2>/root/user/script_error/null/error.txt`{{execute}}
 
 
-`source_files=$( total_files $input )`{{execute}}
+`source_files=$( count_files $input )`{{execute}}
 
-`source_directories=$( total_directories $input )`{{execute}}
+`source_directories=$( count_directories $input )`{{execute}}
 
-
+ . 
 `total_archived_files=$( total_count_archived_files $output )`{{execute}}
 
 `total_archived_directories=$( total_count_archived_directories $output )`{{execute}}
@@ -125,6 +131,20 @@ function total_count_archived_files {
 `echo -n "Total directories to be included in the back are :"`{{execute}}
 
 `count_directories $input_directory`{{execute}}
+
+
+Now press Esc key + :wq followed by enter key
+
+`ls -l `{{execute}}
+
+
+`chmod +x newbackup.sh`{{execute}}
+
+
+`./newbackup.sh`{{execute}}
+
+In this script we have added additional function to include total number of files and directories included in the backup.
+
 
 
 
