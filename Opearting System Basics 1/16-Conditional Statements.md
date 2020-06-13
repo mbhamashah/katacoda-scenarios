@@ -51,3 +51,42 @@ If number of files source directory and traget file is same then print `OK` else
 
 Let's 
 
+`#!/bin/bash`{{execute}}
+
+`# Modified backup script`{{execute}}
+
+`input_directory=/root/user`{{execute}}
+
+`output_file=/root/user/backup/backup_$(date +%Y-%m-%d_%H%M%S).tar.gz`{{execute}}
+
+`# The function total_files reports a total number of files for a given directory.`{{execute}}
+
+`function count_files {`{{execute}}
+        
+`		find $1 -type f | wc -l`{{execute}}
+
+`}`{{execute}}
+
+`# The function total_directories reports a total number of directories`{{execute}}
+
+`# for a given directory. `{{execute}}
+
+`function count_directories {`{{execute}}
+
+`        find $1 -type d | wc -l`{{execute}}
+
+`}`{{execute}}
+
+`tar -czf $output_file $input_directory 2>/root/user/script_error/null/error.txt`{{execute}}
+
+`echo -n "Files to be included in the back up are :"`{{execute}}
+
+`count_files $input_directory`{{execute}}
+
+`echo -n "Directories to be included in the back are :"`{{execute}}
+
+`count_directories $input_directory`{{execute}}
+
+`echo "Backup of $input is completed as requested! Please find the details of the output backupfile.:"`{{execute}}
+
+`ls -l $output`{{execute}}
