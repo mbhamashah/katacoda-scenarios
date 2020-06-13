@@ -83,13 +83,17 @@ Press 'i'
 
 `}`{{execute}}
 
-function total_count_archived_directories {
-        tar -tzf $1 | grep  /$ | wc -l
-}
+`function total_count_archived_directories {`{{execute}}
 
-function total_count_archived_files {
-        tar -tzf $1 | grep -v /$ | wc -l
-}
+`        tar -tzf $1 | grep  /$ | wc -l`{{execute}}
+
+`}`{{execute}}
+
+`function total_count_archived_files {`{{execute}}
+
+`        tar -tzf $1 | grep -v /$ | wc -l`{{execute}}
+
+`}`{{execute}}
 
 
 `tar -czf $output_file $input_directory 2>/root/user/script_error/null/error.txt`{{execute}}
