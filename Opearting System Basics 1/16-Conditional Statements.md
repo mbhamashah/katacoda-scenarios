@@ -19,7 +19,7 @@ press `i`
 
 `#!/bin/bash`{{execute}}
 
-`numer1=100`{{execute}}
+`number1=100`{{execute}}
 
 `number2=200`{{execute}}
 
@@ -29,7 +29,7 @@ press `i`
 
 `else`{{execute}}
 
-`   echo "$num_a is greater than $num_b!"`{{execute}}
+`   echo "$number1 is greater than $number2!"`{{execute}}
 
 `fi`{{execute}}
 
