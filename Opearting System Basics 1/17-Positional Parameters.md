@@ -39,6 +39,16 @@ Let's improve our backup script.
 Press 'i'
 
 
+
+	
+`#!/bin/bash`{{execute}}
+
+`# Modified backup script`{{execute}}
+
+`input_directory=/root/$user`{{execute}}
+
+`output_file=/root/$user/backup/$user_backup_$(date +%Y-%m-%d_%H%M%S).tar.gz`{{execute}}
+
 `if [ -z $1 ]; then  `{{execute}}
 `	user=$(whoami)  `{{execute}}
 `else`{{execute}}
@@ -48,14 +58,8 @@ Press 'i'
 	`fi`{{execute}}
 	`user=$1`{{execute}}
 `fi`{{execute}}
-	
-`#!/bin/bash`{{execute}}
 
-`# Modified backup script`{{execute}}
 
-`input_directory=/root/user`{{execute}}
-
-`output_file=/root/user/backup/backup_$(date +%Y-%m-%d_%H%M%S).tar.gz`{{execute}}
 
 `# The function total_files reports a total number of files for a given directory.`{{execute}}
 
