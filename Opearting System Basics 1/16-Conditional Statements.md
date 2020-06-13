@@ -106,7 +106,7 @@ Press 'i'
 
 `source_directories=$( count_directories $input )`{{execute}}
 
- . 
+
 `total_archived_files=$( total_count_archived_files $output )`{{execute}}
 
 `total_archived_directories=$( total_count_archived_directories $output )`{{execute}}
@@ -133,11 +133,11 @@ Press 'i'
 
 `fi`{{execute}}
 
-`echo -n "Total files to be included in the back up are :"`{{execute}}
+`echo "Total files to be included in the back up are :"`{{execute}}
 
 `count_files $input_directory`{{execute}}
 
-`echo -n "Total directories to be included in the back are :"`{{execute}}
+`echo "Total directories to be included in the back are :"`{{execute}}
 
 `count_directories $input_directory`{{execute}}
 
