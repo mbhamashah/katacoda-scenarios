@@ -77,17 +77,20 @@ Press 'i'
 
 `# for a given directory. `{{execute}}
 
+
 `function count_directories {`{{execute}}
 
 `        find $1 -type d | wc -l`{{execute}}
 
 `}`{{execute}}
 
+
 `function total_count_archived_directories {`{{execute}}
 
 `        tar -tzf $1 | grep  /$ | wc -l`{{execute}}
 
 `}`{{execute}}
+
 
 `function total_count_archived_files {`{{execute}}
 
@@ -118,7 +121,9 @@ Press 'i'
 
 `if [ $source_files -eq $total_archived_files ]; then`{{execute}}
 
-`echo "Backup of $input is completed as requested! Please find the details of the output backupfile.:"`{{execute}}
+`echo "Backup of $input is completed as requested!"`{{execute}}
+
+`echo "Please find the details of the output backupfile.:"`{{execute}}
 
 `ls -l $output`{{execute}}
 
