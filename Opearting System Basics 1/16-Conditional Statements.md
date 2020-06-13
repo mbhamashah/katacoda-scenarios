@@ -77,18 +77,54 @@ Let's
 
 `}`{{execute}}
 
+function total_count_archived_directories {
+        tar -tzf $1 | grep  /$ | wc -l
+}
+
+function total_count_archived_files {
+        tar -tzf $1 | grep -v /$ | wc -l
+}
+
+
 `tar -czf $output_file $input_directory 2>/root/user/script_error/null/error.txt`{{execute}}
 
-`echo -n "Files to be included in the back up are :"`{{execute}}
 
-`count_files $input_directory`{{execute}}
+`source_files=$( total_files $input )`{{execute}}
 
-`echo -n "Directories to be included in the back are :"`{{execute}}
+`source_directories=$( total_directories $input )`{{execute}}
 
-`count_directories $input_directory`{{execute}}
+
+`total_archived_files=$( total_count_archived_files $output )`{{execute}}
+
+`total_archived_directories=$( total_count_archived_directories $output )`{{execute}}
+
+`echo "Files to be included: $source_files"`{{execute}}
+
+`echo "Directories to be included: $source_directories"`{{execute}}
+
+`echo "Files archived: $total_archived_files"`{{execute}}
+
+`echo "Directories archived: $total_archived_directories"`{{execute}}
+
+`if [ $source_files -eq $total_archived_files ]; then`{{execute}}
 
 `echo "Backup of $input is completed as requested! Please find the details of the output backupfile.:"`{{execute}}
 
 `ls -l $output`{{execute}}
+
+`else`{{execute}}
+ 
+`	 echo "Backup of $input failed. please check !"`{{execute}}
+
+`fi`{{execute}}
+
+`echo -n "Total files to be included in the back up are :"`{{execute}}
+
+`count_files $input_directory`{{execute}}
+
+`echo -n "Total directories to be included in the back are :"`{{execute}}
+
+`count_directories $input_directory`{{execute}}
+
 
 
