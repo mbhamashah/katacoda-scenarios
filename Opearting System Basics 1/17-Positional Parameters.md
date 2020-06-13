@@ -148,3 +148,5 @@ Now press Esc key + :wq followed by enter key
 
 `./newbackup.sh`{{execute}}
 
+
+now we can pass a user name as user and it should take a back for us . Now if we pass any other user, it should give us the appropriate message.
