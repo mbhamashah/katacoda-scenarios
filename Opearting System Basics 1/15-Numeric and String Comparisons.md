@@ -16,17 +16,17 @@ We are going to discuss numbereric and string comparisons. Using this comparison
 ### Numeric Comparison
 
 
-number1 -eq number2                  checks if 1st  number  is equal to 2nd numberber
+number1 -eq number2                  Compare if number1  is equal to number2
 
-number1 -ge number2                  checks if 1st  number  is greater than or equal to 2nd numberber
+number1 -ge number2                  Compare if number1  is greater than or equal to number2
 
-number1 -gt number2                  checks if 1st  number  is greater than 2nd numberber
+number1 -gt number2                  Compare if number1  is greater than number2
 
-number1 -le number2                  checks if 1st  number  is less than or equal to 2nd numberber
+number1 -le number2                  Compare if number1  is less than or equal to number2
 
-number1 -lt number2                  checks if 1st  number  is less than 2nd numberber
+number1 -lt number2                  Compare if number1  is less than number2
 
-number1 -ne number2                  checks if 1st  number  is not equal to 2nd numberber
+number1 -ne number2                  Compare if number1  is not equal to number2
 
 
 `a=1`{{execute}}
@@ -44,17 +44,17 @@ number1 -ne number2                  checks if 1st  number  is not equal to 2nd 
 
 ### String Comparison
 
-var1 = var2     checks if var1 is the same as string var2
+var1 = var2     Compare if var1 is the same as var2
 
-var1 != var2    checks if var1 is not the same as var2
+var1 != var2    Compare if var1 is not the same as var2
 
-var1 < var2     checks if var1 is less than var2
+var1 < var2     Compare if var1 is less than var2
 
-var1 > var2     checks if var1 is greater than var2
+var1 > var2     Compare if var1 is greater than var2
 
--n var1         checks if var1 has a length greater than zero
+-n var1         Compare if var1 has a length greater than zero
 
--z var1         checks if var1 has a length of zero
+-z var1         Compare if var1 has a length of zero
 
 
 `a=temp`{{execute}}
