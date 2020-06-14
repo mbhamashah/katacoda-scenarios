@@ -18,18 +18,18 @@ Untill Loop
 For loop is used to iterate through any given code for any number of supplied items in the list.
 
 
-@vi forloopdemo.sh@@
+`vi forloopdemo.sh`{{execute}}
 
 press 'i'
 
 
-@#!/bin/bash@@
+`#!/bin/bash`{{execute}}
 
-@for i in a b c d ; do@@
+`for i in a b c d ; do`{{execute}}
 
-@    echo $i@
+`    echo $i`
 
-@done@@
+`done`{{execute}}
 
 
 There are frou reseve words in foor loop for, in, do, done. 
@@ -41,17 +41,21 @@ For each item  in list a, b, c, and d assign each item into a variable i. Once a
 
 The next loop is While loop. While loop runs only when this conditions holds true. Once specified condition becomes false then loop execution will stop.
 
-@vi whileloopdemo.sh@@
+`vi whileloopdemo.sh`{{execute}}
 
 press 'i'
 
-@#!/bin/bash@@
+`#!/bin/bash`{{execute}}
   
-@counter=0@@
-@while [ $counter -lt 10 ]; do@@
-@    let counter+=2@@
-@    echo $counter@@
-@done@@
+`counter=0`{{execute}}
+
+`while [ $counter -lt 10 ]; do`{{execute}}
+
+`    let counter+=2`{{execute}}
+
+`    echo $counter`{{execute}}
+
+`done`{{execute}}
 
 In this loop, we have intialized a counter  and we want to print only even number so it start counter value with zero and with every run it increments the counter with value 2. Untile $counter values becomes greater than 10 , it will keep on printing the even numbers.
 
@@ -66,22 +70,22 @@ Next loop is Untill loop. This loop acts like whileloop but it code is executed 
 
 Here is the example.
 
-@vi untilloopdemo.sh@@
+`vi untilloopdemo.sh`{{execute}}
 
 press 'i'
 
 
-@#!/bin/bash@@
+`#!/bin/bash`{{execute}}
   
-@counter=20@@
+`counter=20`{{execute}}
 
-@until [ $counter -lt 12 ]; do@@
+`until [ $counter -lt 12 ]; do`{{execute}}
 
-@    let counter-=2@@
+`    let counter-=2`{{execute}}
 
-@    echo $counter@@
+`    echo $counter`{{execute}}
 
-@done@@
+`done`{{execute}}
 
 In this case our counter started with 20. It checks whether $Counter value is less than 12, if this condition is false then loop will execute, so it goes inside loop then reduce the counter by 2 and print the value. So first value we can expect is 18 then 16, 14, 12 and 10.
 
