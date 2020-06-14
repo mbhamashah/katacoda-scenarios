@@ -2,9 +2,27 @@
 
 ## Variables
 
+A variable is a character string to which we assign a value. The value assigned could be a number, text, filename, device, or any other type of data. The name of a variable can contain only letters (a to z or A to Z), numbers ( 0 to 9) or the underscore character ( _).
+
+To define a variable 
+
+
+`variable_name = variable_value`
+
+
+To access the value stored in a variable, prefix its name with the dollar sign ($) −
+
+
+`$variable_name`
+
+
 Variables are the core of any computer programming. Variables are used to store data, modify data, and (re)use them in the whole program.
 
-There are some pre defined variables which are are used at various places. Let's explore it further.
+There are some pre defined variables which are are used at various places. 
+
+
+
+Let's explore it further.
 
 On your terminal run this command and let's see what is the outcome.
 

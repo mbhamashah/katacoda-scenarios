@@ -1,9 +1,12 @@
 #Input, Output and Error Redirections
 
 ## Input, Output and Error Redirections
-Normally when a command is executed on command line either it require input, produce output and throw an error message.
+Normally when a command is executed on command line, it requires input, produce output and throw an error message.
 
 In output, a command can produce a desired output or throw an error or does not produce any output.
+
+when you are giving a command as input via command line or via a file, is called input. Result of execution of that command is called output.
+In case command through an error then it will go to a file or on screen.
 
 `ls -l devops`{{execute}}
 
