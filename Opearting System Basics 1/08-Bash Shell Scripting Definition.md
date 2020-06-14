@@ -19,7 +19,7 @@ Usually shells are interactive. A user enter an command and shell execute it. So
 
 When a user is using bash shell and writting code in bash shell is called bash scripting. To check our default interpreter, please execute this command
 
-`echo `{{execute}}SHELL`{{execute}}
+`echo $SHELL`{{execute}}
 
 In order to define script's interpreter as bash, we need to insert its executable binary with shebang #! at start of the script.
 
