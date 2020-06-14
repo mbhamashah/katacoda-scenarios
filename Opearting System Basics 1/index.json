@@ -19,8 +19,12 @@
       },
       {
         "title": "File Contents",
-        "text": "04-file conents.md"
+        "text": "04_1-file conents.md"
       },
+	   {
+        "title": "System and Service Manager",
+        "text": "04_2-Systemd.md"
+      }, 
       {
         "title": "Linux Text Editor vi",
         "text": "05-vi.md"
@@ -78,8 +82,8 @@
         "text": "18-Bash Loops.md"
       },
       {
-        "title": "Step 18",
-        "text": "step18.md"
+        "title": "Conclusion",
+        "text": "Conclusion.md"
       },
       {
         "title": "Step 19",
