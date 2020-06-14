@@ -91,7 +91,7 @@ man sed can give you more info about various options.
 
 ### Difference among files
 
-diff command shows the difference between two files by comparing files line by line. diff uses certain special intrductions/sybols to communicate required changes to make two files identical. It tells what all changes to be made in first file to make it match second file. 
+diff command shows the difference between two files by comparing files line by line. diff uses certain special symbols to communicate required changes to make two files identical. It tells what all changes to be made in first file to make it match second file. 
 
 a : add
 
