@@ -1,6 +1,6 @@
-#Positional Parameters
+# Positional Parameters
 
-## Postional Parameters
+## Positional Parameters
 
 A positional parameter is a variable within a shell program; its value is set from an argument specified on the command line that invokes the program. Positional parameters are numbered and are referred to with a preceding "$": $1, $2, $3, and so on.
 
