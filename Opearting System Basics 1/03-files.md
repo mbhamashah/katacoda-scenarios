@@ -38,7 +38,7 @@ Lets first create some directories.
 `ls`{{execute}}
 
 
-Now that we have few directories and one sample file. We want to copy samplefile.txt from devops1 directory ro devops2 directory with new name samplefilecopied.txt.
+Now that we have few directories and one sample file. We want to copy samplefile.txt from devops1 directory to devops2 directory with new name samplefilecopied.txt.
 
 
 `cp samplefile.txt /root/devops2/samplefilecopied.txt `{{execute}}
@@ -59,7 +59,7 @@ Now let's move samplefilecopied.txt from devops2 directory to devops1 directory
 
 
 ### Home sweet home
-Every linux user has a home directory, let's move to ours. To do so we use `cd`{{execute}} (try it now). We can see what the current directory, called the working directory, is by issuing the command `pwd`{{execute}} or outputting the `$PWD` variable: `echo $PWD`{{execute}}. The home directory is where bash looks for its initialisation scripts, which start with one called .bashrc (more about that later).
+Every Linux user has a home directory, let's move to ours. To do so we use `cd`{{execute}} (try it now). We can see what the current directory, called the working directory, is by issuing the command `pwd`{{execute}} or outputting the `$PWD` variable: `echo $PWD`{{execute}}. The home directory is where bash looks for its initialization scripts, which start with one called .bashrc (more about that later).
 
 Your home directory can also be referred to by the symbol `~`, which is called 'Tilda', or by the variable `$HOME`.
 
