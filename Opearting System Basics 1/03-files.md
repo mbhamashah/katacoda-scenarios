@@ -99,15 +99,15 @@ press i
 
 Then type some sample text - 
 
-I love DevOps !!!
+`I love DevOps !!!`{{execute}}
 
-Welcome to DevOps
+`Welcome to DevOps`{{execute}}
 
-This is my n-2 line
+`This is my n-2 line`{{execute}}
 
-This is n-1 line
+`This is n-1 line`{{execute}}
 
-This is the last line (n)
+`This is the last line (n)`{{execute}}
 
 
 Press Esc key
