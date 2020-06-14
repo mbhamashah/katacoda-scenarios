@@ -2,6 +2,10 @@
 
 ## Postional Parameters
 
+A positional parameter is a variable within a shell program; its value is set from an argument specified on the command line that invokes the program. Positional parameters are numbered and are referred to with a preceding ``$'': $1, $2, $3, and so on.
+
+A shell program may reference up to nine positional parameters.
+
 So far we have modified our back up script and parameterized it. However we can make it even better when we can take back up of any user's directory. If we can specify user name at time of running backup then it will make much easier for system administrator to take backup of for any user.
 
 We use positional parameters with bash script to achieve this goal.

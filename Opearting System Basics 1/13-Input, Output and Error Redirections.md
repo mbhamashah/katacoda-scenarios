@@ -14,7 +14,7 @@ This command will throughs an error stderr (as covered in earlier topics). This 
 
 We want to capture the output and error messages so that we can analyze this info and if require, take necessary action.
 
-we have read about redirc operator >.
+we have read about redirct operator >.
 
 Now let's deep deep dive a bit. 
 
