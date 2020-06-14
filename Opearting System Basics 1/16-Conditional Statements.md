@@ -5,7 +5,7 @@
 In this section, are going to discuss about conditional statements in bash shell scrpting. Using these statement, we can add more logic to our scripts. Fundamental concept is that if certain conditions meets then excute certain other steps.  if not then do something else.
 
 
-We `if`, `then` and `else`. For example, we can improve our backup script by comparing number of files exist in the source directory and resulting backup file. If both number matches then only our backup is taken correctly. Otherwise something is not correct.\
+We are going to discuss these three conditionals - `if`, `then` and `else`. For example, we can improve our backup script by comparing number of files exist in the source directory and resulting backup file. If both number matches then only our backup is taken correctly. Otherwise something is not correct.\
 
 
 Let's take few simple examples. We want to compare two numbers ( number1 and number2) and then compare if number1 is less than number 2 , if yes then print number1 is less than number 2. However if above condition is not true then print - Number 1 is greater than number2.
