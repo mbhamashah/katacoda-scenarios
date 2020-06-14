@@ -20,6 +20,7 @@ Press 'i'
 
 `echo $1 $3`{{execute}}
 
+`echo $#`{{execute}}
 
 `echo $*`{{execute}}
 
