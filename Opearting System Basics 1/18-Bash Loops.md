@@ -27,7 +27,7 @@ press 'i'
 
 `for i in a b c d ; do`{{execute}}
 
-`    echo $i`
+`    echo $i`{{execute}}
 
 `done`{{execute}}
 
