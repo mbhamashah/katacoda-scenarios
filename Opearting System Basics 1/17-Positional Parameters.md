@@ -16,13 +16,12 @@ Let's take an example.
 
 Press 'i'
 
-'#!/bin/bash`{{execute}}
+`#!/bin/bash`{{execute}}
 
-'echo $1 $3`{{execute}}
+`echo $1 $3`{{execute}}
 
-'echo $#`{{execute}}
 
-'echo $*`{{execute}}
+`echo $*`{{execute}}
 
 
 Press Esc, :wq , enter key
