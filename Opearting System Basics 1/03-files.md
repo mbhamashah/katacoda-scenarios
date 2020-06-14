@@ -127,7 +127,7 @@ tail command is used to display the last lines of a file (by default last 10 lin
 
 `tail -n 2 samplefile.txt`{{execute}}
 
--n 2option command will give you only last two lines of the file.
+-n 2 option command will give you only last two lines of the file.
 
 
 ### Permissions
@@ -173,7 +173,7 @@ let's check the permission of samplefile.txt. If does not exist then you can cre
 you will see the permission of samplefile.txt
 
 
--rw-r--r-- 1 root root   71 Jun 11 06:44 sample.txt
+`-rw-r--r-- 1 root root   71 Jun 11 06:44 sample.txt`
 
 first bit says where it is a directory of file. d is not mentioned then it is a file.sample
 Next three places shows what permission a user has, next three places shows what permission a group has and last three places shows what permission rest of the users have.
@@ -206,11 +206,11 @@ Now you can see the permission of file has changed.
 
 We can change the ownership of the file using chown command
 
-chown owner_name  file_name
+`chown owner_name  file_name`
 
 Now let's assume there is another user with name Tom. If you want to make Tom the owner of the file then we can use this command
 
-chown tom samplefile.txt
+`chown tom samplefile.txt`
 
 
 ### Basename
@@ -240,10 +240,11 @@ To get this info in more human readable form
 
 du command shows the disk space used by directory trees inclusive of its content.
 
-du <directory_name>
+`du <directory_name>`
 
 to get info in more human readable format
-du -h <directory_name>
+
+`du -h <directory_name>`
 
 ### Find command
 
@@ -260,10 +261,11 @@ touch command changes file timestamp. It can also create a file if it does not e
 `touch samplefile.txt `{{execute}}
 
 `ls -l `{{execute}}
+
 Have you noticed the timestamp difference.
 
 Let's create an empty file.
 
-` touch devopsbootcamp.txt`{{execute}}
+`touch devopsbootcamp.txt`{{execute}}
 
 `ls -l `{{execute}}
