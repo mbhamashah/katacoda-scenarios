@@ -11,10 +11,14 @@ Standard input (stdin) is the default place where commands listen for more info.
 
 
 `cat `{{execute}}
+
 `welcome`{{execute}}
+
 ` welcome again`{{execute}}
+
 `How are you doing in the class?`{{execute}}
-type now [ctrl+d]
+
+type [ctrl+d]
 
 
 ### Pipe 
