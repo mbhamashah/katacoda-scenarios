@@ -15,6 +15,11 @@ if we use -l option with it then it will give output in long list format
 
 `ls -l`{{execute}}
 
+`ls –gAlF`{{execute}}
+
+This commands list almost all files in long format without showing owner 
+
+
 
 ### Copy command
 
