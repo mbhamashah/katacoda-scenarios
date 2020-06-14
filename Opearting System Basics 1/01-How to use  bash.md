@@ -55,7 +55,7 @@ Another way of accessing something you've typed in the past is to recall the arg
 cat <esc-.>
 ```
 
-I haven't provided a copy or execute for that command beause Katacoda can't easily simulate the `esc-.` key combination, and it wouldn't help you learn it.
+I haven't provided a copy or execute for that command because Katakoda can't easily simulate the `esc-.` key combination, and it wouldn't help you learn it.
 
 ### Clear
 
